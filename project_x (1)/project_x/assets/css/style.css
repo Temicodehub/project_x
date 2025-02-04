@@ -1,0 +1,274 @@
+/* body {
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+
+.logo {
+    width: 100px;
+}
+
+.slider {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner.jpg');
+    width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* .slider {
+    background-image: url('../images/banner.jpg');
+    width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+} */
+
+/* .slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+} */
+
+p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+header > div > nav > ul > li > a {
+    text-decoration: none;
+    color: crimson;
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+header > div > nav > ul > li > a:hover {
+    color: purple;
+}
+
+header > div > nav > ul > li {
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+}
+
+.cta {
+    border: 2px solid crimson;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: crimson;
+    font-size: 24px;
+}
+
+.cta:hover {
+    border: none;
+    background-color: purple;
+    color: white;
+}
+
+.cta-head {
+    border: 2px solid crimson;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: crimson;
+    font-size: 24px;
+}
+
+.cta-head:hover {
+    border: none;
+    background-color: purple;
+    color: white;
+}
+
+.maggi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: crimson !important;
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.subtitle {
+    color: purple !important;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.overview-img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+.gridlock {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gta {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: crimson;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.gta::after {
+    content: ' \2605';
+}
+
+.cta {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: crimson;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.cta::after {
+    content: ' \2605';
+}
+
+.foot {
+    background-color: crimson;
+    color: white;
+    padding: 50px 80px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.copyright p {
+    color: crimson;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.sonic {
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 6px;
+}
+
+.footer > div > div > a {
+    text-decoration: none;
+    color: white;
+}
+
+.punch {
+    background: transparent;
+    border: none;
+    color: crimson;
+    font-size: 30px;
+}
+
+.hamburger {
+    color: crimson;
+    font-size: 30px;
+}
+
+#imole {
+    margin-right: 10px;;
+}
+
+.mob-btn {
+    text-align: center;
+}
+
+.foot-list {
+    list-style: none;
+    font-size: 22px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.foot-title {
+    font-size: 30px;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    }
+
+    .cta-head {
+        display: none;
+    }
+
+    .gridlock {
+        display: block;
+        gap: 0;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .desk-img {
+        display: none;
+    }
+
+    .desk-btn {
+        display: none;
+    }
+
+    .foot {
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .copyright {
+
+    }
+}
+
+/* Media Query for Desktop */
+@media screen and (min-width: 1024px) {
+    .hamburger {
+        display: none;
+    }
+
+    .mob-img {
+        display: none;
+    }
+
+    .mob-btn {
+        display: none;
+    }
+}
